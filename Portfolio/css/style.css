@@ -1,0 +1,96 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	background:#bcbcbc;
+}
+
+#topContainer{
+	background: #164b2f;	
+}
+
+.jumbotron{
+	height: 400px;
+}	
+
+#MidContainer{
+	background: #266748;
+}
+
+.h2{font-size:36px
+}
+
+.container{
+
+}
+
+.container h1{
+}
+
+
+#menuButtons button{
+	width: 29%;
+	height: 50px;
+	margin-right: 15px;
+}
+#menuButtons button font{
+	font-size: 20px;
+}
+
+
+.imageContent{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+	#menuButtons button{
+		width: 100%;
+		margin-right: 30px;	
+	}
+	#menuButton1{
+		margin-top: 20px;
+		background: #658974;
+		font:artifika;
+	}
+	#menuButton2{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background: #658974;
+	}
+	#menuButton3{
+		margin-bottom: 20px;
+		background: #658974;
+	}
+	#banner1{
+		display: none;
+	}
+	#banner2{
+		display: none;
+
+	}
+
+	#portifolioBox div{
+		margin-top: 0 !important; 
+
+	}
+	#portifolioBox div div{
+		margin-top: 30px !important;
+
+	}
+	.imageContent{
+    top: 45%;
+	}
+	.jumbotron{
+	height: auto;
+	}
+
+
+}
+
+@media screen and (max-width: 768px){
+	#formularioContato{
+		height: 550px !important;
+	}
+}
+
